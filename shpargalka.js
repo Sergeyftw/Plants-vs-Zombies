@@ -1,20 +1,20 @@
-let num = 100; //переменная- число
-let text ="text"; //переменная-текст
-let object = { //переменная - объект
-	key1:"что-то" ,//ключ со значением
+let num = 100;
+let text ="text";
+let object = { 
+	key1:"что-то" ,
 	key2:"что-то еще"
-onclick = function(){} // клики(нажатие) на различные html элементы
+onclick = function(){}
 }
-style.height = "100px"; //меняет различные css свойства элементов
-document.querySelector() // находит нужный элемент в html по классу 
-alert() //всплывающее окно на странице
-innerHTML = num; //заменяет содержимое элемента
-let proverka = function() {//создание функции
+style.height = "100px"; 
+document.querySelector() 
+alert() 
+innerHTML = num; 
+let proverka = function() {
 	alert('privet')
 }
-setTimeout(proverka,1000) //таймер
-document.querySelectorAll() //находит все элементы с одинаковым классом
-let array = ["lol","kek",21,"hello"]; //массив
+setTimeout(proverka,1000) 
+document.querySelectorAll() 
+let array = ["lol","kek",21,"hello"]; 
 for(let index = 0; index<2; index = index + 1){
 
 }
